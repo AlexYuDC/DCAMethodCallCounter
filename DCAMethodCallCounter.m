@@ -39,7 +39,7 @@
     } else {
         number = [NSNumber numberWithInteger:[number integerValue] + 1];
         [self.counterDict setObject:number forKey:methodName];
-        NSLog(@"method %@ called %@ times",methodName , number);
+        // NSLog(@"method %@ called %@ times",methodName , number);
     }
 }
 
